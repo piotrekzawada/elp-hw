@@ -1,0 +1,13 @@
+.btn-group {
+  font-size: 0;
+
+  .btn:not(:first-child){
+    margin-left: 10px;
+  }
+}
+
+.action-buttons{
+  background-color: $color-navy;
+  padding-top: 16px;
+  padding-bottom: 14px;
+}

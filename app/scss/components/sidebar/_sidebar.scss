@@ -1,0 +1,11 @@
+.sidebar{
+  width: $sidebar-width;
+  height: $sidebar-height;
+  overflow: hidden;
+  background: inherit;
+  position: relative;
+  background: rgba($color-navy, 0.9);
+  background-size: cover;
+  border-top-left-radius: $app-box-radius;
+  border-bottom-left-radius: $app-box-radius;
+}

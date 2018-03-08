@@ -1,0 +1,11 @@
+.app-box{
+  display: flex;
+  position: fixed;
+  width: $app-box-width;
+  height: $app-box-height;
+  border-radius: $app-box-radius;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}

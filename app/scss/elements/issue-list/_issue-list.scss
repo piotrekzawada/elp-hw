@@ -1,0 +1,30 @@
+.issue-list{
+  @extend .clear-list;
+
+  li{
+    background-color: $color-white;
+    border: 1px solid $color-silver;
+    border-radius: 5px;
+    font-size: $font-size-small;
+    padding: 11px 13px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    color: $color-black;
+
+    i{
+      margin-left: auto;
+      @extend .icon-star-o;
+      color: $color-gray;
+    }
+    
+    &:active,
+    &.done{
+      
+      i{
+        @extend .icon-star;
+        color: $color-black;
+      }
+    }
+  }
+}

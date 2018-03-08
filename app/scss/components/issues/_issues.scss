@@ -1,0 +1,17 @@
+.issues{
+  flex-grow: 1;
+  background-color: $color-gray-light;
+  overflow-y: scroll;
+  border-top-right-radius: $app-box-radius;
+  border-bottom-right-radius: $app-box-radius;
+
+  .issue-date{
+    margin-top: 10px;
+  }
+
+  header{
+    margin-bottom: 10px;
+    font-size: $font-size-small-xx;
+    color: $color-gray;
+  }
+}

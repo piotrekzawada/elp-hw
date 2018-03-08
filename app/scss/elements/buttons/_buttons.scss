@@ -1,0 +1,18 @@
+.btn-round{
+  width: $btn-round-width;
+  height: $btn-round-height;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.btn-green{
+  background-color: $color-green;
+}
+
+.btn-orange{
+  background-color: $color-orange;
+}
+
+.btn-red{
+  background-color: $color-red;
+}
