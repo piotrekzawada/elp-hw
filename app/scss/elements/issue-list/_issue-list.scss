@@ -26,5 +26,9 @@
         color: $color-black;
       }
     }
+
+    &.template{
+      display: none;
+    }
   }
 }
